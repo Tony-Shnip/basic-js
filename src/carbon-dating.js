@@ -11,4 +11,4 @@ module.exports = function dateSample(sampleActivity) {
   let k = 0.693 / HALF_LIFE_PERIOD;
   ans = Math.ceil(Math.log( MODERN_ACTIVITY / parseFloat(sampleActivity))/k);
   return ans;
-};
+}; 
